@@ -1,19 +1,25 @@
 body {
   background: Orange;
   font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 h1 {
   color: Blue;
   text-align: center;
+  width: 100%
+  display: block;
 }
 
 .assign {
-  display: flex;
+  display: block;
   padding: 10px;
   margin: 10px;
   background: Red;
   border-radius: 20px;
+  width: 20%;
+  box-shadow: 8px 8px Grey;
 }
 
 .assign img {
